@@ -1,0 +1,503 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.Heading {
+  background-color: black;
+}
+.HeadingImg1 {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+
+  float: right;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.Overlay {
+  position: relative;
+  top: 0px;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.287);
+  max-width: 1366px;
+  overflow: hidden;
+  min-height: 588px;
+}
+.logo {
+  margin-top: 32px;
+  margin-left: 128px;
+  max-width: 150px;
+  max-height: 37px;
+}
+.menu {
+  margin-top: 32px;
+  margin-right: 128px;
+  float: right;
+  max-width: 100%;
+  max-height: 22px;
+}
+h1 {
+  margin-left: 128px;
+  color: white;
+  max-width: 730px;
+  max-height: 211px;
+  text-align: left;
+  font: normal normal 600 52px/72px Poppins;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+.HeaderText {
+  padding-top: 274px;
+}
+
+.EquiryButton {
+  margin-left: 128px;
+  width: 194px;
+  height: 72px;
+  background: #00b4bc 0% 0% no-repeat padding-box;
+  opacity: 1;
+  cursor: pointer;
+  font: normal normal 600 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.CallButton {
+  margin-left: 32px;
+  font: normal normal 600 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+/*  */
+.AboutUs {
+  margin-top: -0px !important;
+  background-color: black;
+  height: 678px;
+}
+.HeadingImg2 {
+  position: absolute;
+  right: 0px;
+  z-index: 1;
+  float: right;
+  overflow: hidden;
+  margin-top: 162px;
+  margin-right: 128px;
+}
+.OverlayAbout {
+  position: relative;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.287);
+  max-height: 678px;
+  overflow: hidden;
+}
+
+.TitleText {
+  padding-top: 121px;
+  margin-left: 128px;
+  width: 151px;
+  height: 25px;
+  text-align: left;
+  font: normal normal 600 18px/27px Poppins;
+  letter-spacing: 0px;
+  color: #8a8a8a;
+  opacity: 1;
+}
+
+.HeaderText1 {
+  position: relative;
+  z-index: 3;
+  margin-top: 16px;
+  margin-left: 128px;
+  max-width: 730px;
+  height: 116px;
+  text-align: left;
+  font: normal normal 600 45px/60px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.AboutUsPar {
+  /* display: block; */
+  position: relative;
+  z-index: 3;
+  max-width: 732px;
+  padding-left: 223px;
+  height: 188px;
+  text-align: left;
+  font: normal normal normal 16px/27px Hind;
+  letter-spacing: 0px;
+  color: #eeeeee;
+  opacity: 1;
+}
+
+.MoreAbout {
+  text-decoration: none;
+  display: inline-flex;
+  padding-left: 223px;
+  margin-top: 64px;
+  width: 190px;
+  height: 28px;
+  text-align: left;
+  font: normal normal 600 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #00b4bc;
+  opacity: 1;
+}
+.MoreAbout img {
+  display: inline;
+  padding-top: 3px;
+  padding-left: 10px;
+  height: 25px;
+  overflow: hidden;
+}
+.imageArrow {
+  background-image: url(/Images/next-arrow-blue.png);
+}
+/*  */
+
+.Services {
+  max-height: 1835px;
+  width: 100%;
+  background: #1a1a1a 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+}
+.HeaderText2 {
+  margin-bottom: 32px;
+}
+.DescSubOverlay1 {
+  display: inline-block;
+}
+.DescSubOverlay2 {
+  margin-top: 48px;
+  display: inline-block;
+}
+.Description {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 32px;
+}
+
+.TitleDesc {
+  font: normal normal 600 24px/35px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.DescImage {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 283px;
+  margin-left: 128px;
+  overflow: hidden;
+}
+
+.DescText {
+  margin-top: 16px;
+  text-align: left;
+  max-width: 425px;
+  height: 53px;
+  text-align: left;
+  font: normal normal normal 16px/27px Hind;
+  letter-spacing: 0px;
+  color: #eeeeee;
+  opacity: 1;
+}
+
+.LearnMore {
+  text-decoration: none;
+  display: inline-flex;
+  padding-top: 153px;
+  width: 190px;
+  height: 28px;
+  text-align: left;
+  font: normal normal 600 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #00b4bc;
+  opacity: 1;
+}
+.icon {
+  padding-left: 12px;
+  padding-top: 3px;
+}
+.ServicesOverlay {
+  padding-bottom: 96px;
+}
+
+/*   */
+.Investor {
+  margin-top: -30px;
+  background-color: #000000;
+}
+.OverlayInvest {
+  min-height: 544px;
+  background-color: #ffffff00;
+}
+.HeadingImg3 {
+  position: absolute;
+  margin-top: 159px;
+  margin-left: 303px;
+  background-image: url('/Images/Heading3.png');
+  width: 1045px;
+  height: 759px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.MoreAboutInvestor {
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  padding-left: 223px;
+  margin-top: 32px;
+  width: 258px;
+  height: 28px;
+  text-align: left;
+  font: normal normal 600 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #00b4bc;
+  opacity: 1;
+}
+.AboutInvestor {
+  position: relative;
+  z-index: 3;
+  max-width: 732px;
+  padding-left: 223px;
+  max-height: 188px;
+  text-align: left;
+  font: normal normal normal 16px/27px Hind;
+  letter-spacing: 0px;
+  color: #eeeeee;
+  opacity: 1;
+}
+
+/*  */
+.News {
+  min-height: 683px;
+  width: 100%;
+  padding-bottom: 96px;
+  background: #1a1a1a 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.AllNews {
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  float: right;
+  margin-top: -75px;
+  right: 128px;
+  width: 150px;
+  height: 28px;
+  text-align: left;
+  font: normal normal 600 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #00b4bc;
+  opacity: 1;
+}
+.row {
+  margin-left: 98px;
+  display: inline-flex;
+}
+.row img {
+  padding-left: 30px;
+}
+
+.column {
+  margin: 0px !important;
+  display: inline;
+  height: 283px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.TextDate {
+  display: block;
+  width: 125px;
+  height: 20px;
+  padding-left: 30px;
+  padding-top: 16px;
+  text-align: left;
+  font: normal normal normal 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #8a8a8a;
+  opacity: 1;
+}
+.NewsTitle {
+  text-decoration: none;
+  position: relative;
+  display: inline;
+  z-index: 2;
+  margin-left: 30px;
+  margin-top: 8px;
+  width: 250px;
+  height: 48px;
+  text-align: left;
+  font: normal normal 600 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.icon1 {
+  display: inline;
+  padding-left: 0px !important;
+  height: 20px;
+}
+
+/*  */
+
+.Enquiry {
+  margin-top: -30px;
+  background-color: #000000;
+  min-height: 293px;
+}
+.HeaderText3 {
+  padding-top: 72px;
+  text-align: center;
+  font: normal normal 600 32px/48px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.EquiryButtonWhite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 194px;
+  height: 72px;
+  background: #00000000 0% 0% no-repeat padding-box;
+  opacity: 1;
+  cursor: pointer;
+  font: normal normal 600 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  border-color: #00b4bc;
+}
+
+/*  */
+
+.Footer {
+  padding-top: 48px;
+  margin-left: 182px;
+  margin-right: 182px;
+  padding-bottom: 32px;
+  display: block;
+  border: none;
+  border-top: none;
+  border-bottom: 2px solid #ffffff;
+}
+.SubMenu {
+  padding-left: 32px;
+
+  font: normal normal normal 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.Version {
+  padding-top: 32px;
+  width: 123px;
+  height: 26px;
+  margin-right: 128px;
+  float: right;
+  font: normal normal normal 16px/27px Hind;
+  letter-spacing: 0px;
+  color: #eeeeee;
+  opacity: 1;
+}
+.Bottom{
+  min-height: 204px;
+  width: 100%;
+
+  background: #1a1a1a 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+}
+@media only screen and (max-width: 1360px) {
+  .HeadingImg3 {
+    margin-left: -25%;
+  }
+  .row {
+    display: block;
+  }
+
+  .DescImage {
+    display: block;
+    padding-right: 128px;
+  }
+  .Description {
+    display: block;
+    padding-left: 128px;
+  }
+
+  .DescText,
+  .LearnMore {
+    padding-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  /* For mobile phones: */
+  .MoreAbout {
+    margin-top: 120px;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .HeadingImg3 {
+    width: 50%;
+  }
+  /* For mobile phones: */
+  .Overlay {
+    max-height: 768px;
+  }
+  .HeaderText1 {
+    padding-top: 124px;
+    font-size: 40px;
+  }
+  .MoreAbout {
+    margin-top: 120px;
+    padding-left: 123px;
+  }
+  .AboutUsPar {
+    padding-left: 123px;
+  }
+  .EquiryButton {
+    margin-top: 20px;
+    margin-left: 123px;
+    margin-right: auto;
+  }
+  .AboutUs {
+    padding-top: 10px;
+  }
+  .DescImage {
+    display: block;
+    padding-right: auto;
+  }
+  .Description {
+    display: block;
+    margin-top: auto;
+    margin-right: auto;
+  }
+}
